@@ -10,3 +10,6 @@ Bus 001 Device 002: ID 0b05:1866 ASUSTek Computer, Inc. N-KEY Device
 > curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh <br>
 > make <br>
 > udo make install <br>
+
+after installtion it might not work at first then try entering this 
+>  systemctl daemon-reload && systemctl restart asusd
